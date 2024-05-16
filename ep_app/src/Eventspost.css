@@ -1,0 +1,38 @@
+.events-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .events-list {
+    max-height: 400px; /* Adjust height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Optional: Add border around the events list */
+    border-radius: 5px; /* Optional: Add border radius */
+    padding: 10px; /* Optional: Add padding */
+  }
+  
+  .event-card {
+    border-bottom: 1px solid #ccc; /* Optional: Add border between event cards */
+    padding: 10px 0; /* Optional: Add padding to separate event cards */
+    transition: transform 0.3s ease-in-out; /* Add transition for hover effect */
+  }
+  
+  .event-card:last-child {
+    border-bottom: none; /* Optional: Remove border from the last event card */
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px); /* Add animation for hover effect */
+  }
+  
+  .event-card h3 {
+    margin-top: 0;
+  }
+  
+  .event-date,
+  .event-time,
+  .event-category {
+    font-style: italic;
+    color: #666;
+  }
+  
